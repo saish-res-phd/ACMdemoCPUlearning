@@ -1,0 +1,46 @@
+=== Timestamp: 1747214267708 ===
+=== UE STATUS ===
+cm-state: CM-CONNECTED
+rm-state: RM-REGISTERED
+mm-state: MM-REGISTERED/NORMAL-SERVICE
+5u-state: 5U1-UPDATED
+sim-inserted: true
+selected-plmn: 999/70
+current-cell: 1
+current-plmn: 999/70
+current-tac: 1
+last-tai: PLMN[999/70] TAC[1]
+stored-suci: no-identity
+stored-guti: 
+ plmn: 999/70
+ amf-region-id: 0x02
+ amf-set-id: 1
+ amf-pointer: 0
+ tmsi: 0xc0000063
+has-emergency: false
+
+=== UE COVERAGE ===
+[1]: 
+ signal: -1 dBm (Excellent)
+ mib: 
+  barred: false
+  intra-freq-reselection: allowed
+ sib1: 
+  nr-cell-id: 0000000000000010
+  plmn: 999/70
+  tac: 1
+  operator-reserved: false
+
+=== UE PDU SESSIONS ===
+PDU Session1: 
+ state: PS-ACTIVE
+ session-type: IPv4
+ apn: internet
+ s-nssai: 
+  sst: 0x01
+  sd: null
+ emergency: false
+ address: 10.45.0.3
+ ambr: up[1000000Kb/s] down[1000000Kb/s]
+ data-pending: false
+
