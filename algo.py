@@ -10,7 +10,7 @@ load_history = deque(maxlen=MOVING_AVG_WINDOW)
 irq_history = deque(maxlen=MOVING_AVG_WINDOW)
 ipc_history = deque(maxlen=MOVING_AVG_WINDOW)
 
-# Threshold margins (20% buffer)
+# Threshold margins (10% buffer)
 THRESHOLD_MARGIN = 0.1
 MIN_ACTIVE_CORES = 16
 
